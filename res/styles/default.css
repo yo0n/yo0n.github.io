@@ -1,0 +1,49 @@
+div.box {
+	background-image: linear-gradient(#e0ecde, #FFFFFF);
+	border : 2px solid;
+	border-top-color : #D2D2D2;
+	border-left-color : #D2D2D2;
+	border-bottom-color : #AAAAAA;
+	border-right-color : #AAAAAA;
+	margin-left : 30px;
+	margin-right : 30px;
+	padding : 8px;
+	padding-left : 32px;
+	padding-right : 32px;
+	box-shadow: 3px 3px #AAAAAA;
+}
+
+p, li {
+	font-family : Verdana;
+	font-size : 18px;
+}
+
+p a {
+	color : #68b2a0;
+	weight : bold;
+}
+
+h1, h2, h3, p b {
+	color : #2c6975;
+	font-family : Verdana;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #2c6975;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+img.content {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
